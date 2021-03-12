@@ -4,6 +4,7 @@ import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import TodoApp from "./features/todo/TodoApp";
 import UserApp from "./features/users/UserApp";
+import ReactReduxTodo from "./ReactReduxTodo/ReactReduxTodo";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* <Counter /> */}
         {/* <TodoApp /> */}
-        <UserApp />
+        {/* <UserApp /> */}
+        <ReactReduxTodo />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
